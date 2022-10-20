@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-card-solution-Fx8953Srp5](https://www.frontendmentor.io/solutions/order-summary-card-solution-Fx8953Srp5)
 - Live Site URL: [https://rahulrajput83.github.io/order-summary-card/](https://rahulrajput83.github.io/order-summary-card/)
 
 
