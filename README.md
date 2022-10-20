@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Solution](./design/desktop.jpg)
+![Solution](./design/desktop.png)
 
 
 ### Links
