@@ -1,0 +1,148 @@
+/* Style for body */
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+}
+
+/* Container Class Style */
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 19rem;
+    border-radius: 0.5rem;
+    z-index: 1;
+    justify-content: center;
+    background: white;
+    align-items: center;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Style for Img inside class Container */
+.container > img {
+    width: 100%;
+    z-index: 0;
+    height: auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+/* Style for class order*/
+.order{
+    padding: 1.5rem 0 0.5rem 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+/* Style for paragraph */
+p{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    width: 80%;
+    margin: 0;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+/* Style for class content */
+.content {
+    border-radius: 0.5rem;
+    margin: 1.5rem auto;
+    width: 80%;
+    padding: 0.6rem 0.7rem;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* style for Img inside class content */
+.content > img {
+    width: 1.9rem;
+}
+
+/* Style for span inside class content */
+.content > span {
+    font-size: 0.7rem;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Style for class column */
+.column {
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+/* Style for first child of span inside class column */
+.column span:first-child {
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    font-size: 0.9rem;
+}
+
+/* Style for last child of span inside class column */
+.column span:last-child {
+    font-size: 0.8rem;
+    color: hsl(224, 23%, 55%);
+}
+
+
+/* Style for button */
+button {
+    border: none;
+    padding: 0.7rem;
+    font-weight: 700;
+    border-radius: 0.4rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+    margin-bottom: 1.3rem;
+    box-shadow: 0px 10px 20px -8px hsl(224, 23%, 55%);
+    width: 86%;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+
+/* Style for button hover */
+button:hover {
+    opacity: 0.7;
+}
+
+/* Style for class cancel */
+.cancel {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+/* Responsive Style */
+@media(max-width: 768px) {
+    body {
+        background-image: url('./images/pattern-background-mobile.svg');
+    }
+    .container {
+        width: 90%;
+    }
+}
